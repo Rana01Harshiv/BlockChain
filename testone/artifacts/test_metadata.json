@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "st",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "myfun",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testone/one.sol": "test"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testone/one.sol": {
+			"keccak256": "0x4f804f8a816c1cea2e210a2756c5c80d0861323b056dd26c004e9c69fbb057af",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a325a0a1465d833371e4ec4dfe1f1f7ada504fa542f75612085d5a28d2b470b8",
+				"dweb:/ipfs/QmasECHpohsAGpG9qQQCs1qoxNBoB9NxnwoC9ZJDkCkQQz"
+			]
+		}
+	},
+	"version": 1
+}
